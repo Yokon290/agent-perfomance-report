@@ -1,69 +1,69 @@
 # 📈 Agent Performance Report
 
-This is a real-world data analysis task that simulates work as a junior data analyst.
+This is a real-world data analysis project that simulates work as a **Junior Data Analyst**
 
 ---
 
 ## 🧩 Problem Description
 
-You are given support ticket data from customer service. Your job is to:
+You're provided with customer support ticket data. Your task is to:
 
-- Filter only tickets marked as `"Closed"`
-- Count how many closed tickets each agent resolved
-- Calculate the average response time per agent
-- Export the results into a clean CSV report
+- ✅ Filter only the tickets marked as `"Closed"`
+- ✅ Count how many closed tickets each agent resolved
+- ✅ Calculate the average response time per agent
+- ✅ Export the results into a clean and structured CSV report
 
 ---
 
 ## 🛠️ Tools Used
 
-- Python 🐍
-- Pandas 📊
+- **Python** 🐍
+- **Pandas** 📊 for data manipulation and analysis
 
 ---
 
 ## 📁 Files in This Project
 
-| File Name                | Description                                              |
-|--------------------------|----------------------------------------------------------|
-| `support_tickets.csv`    | Raw ticket data for analysis                             |
-| `perfomance_report.py`   | Python script that filters, analyzes, and exports report |
-| `agent_perfomance_report.csv` | Final generated report (created after running the script) |
+| File Name                   | Description                                                  |
+|----------------------------|--------------------------------------------------------------|
+| `support_tickets.csv`      | Raw customer support ticket data                             |
+| `perfomance_report.py`     | Python script to analyze performance and generate report     |
+| `agent_perfomance_report.csv` | Final output report (generated when the script is run)        |
 
 ---
 
-## ✅ How to Run It
+## ✅ How to Run the Project
 
-1. Make sure you have **Pandas** installed:
+1. **Install Pandas** (if not already installed):
 
 ```bash
 pip install pandas
 Run the script:
-
-bash
-Copy
-Edit
 python perfomance_report.py
-The report will be saved as:
 
-Copy
-Edit
+After running, a new file will be created:
 agent_perfomance_report.csv
+This CSV file contains the number of closed tickets and average response time per agent.
+
 🧪 Example Output
-nginx
-Copy
-Edit
 agent_name  closed_tickets_count  average_response_time
 Alice       2                     27.5
 Bob         1                     35.0
 Charlie     1                     45.0
 Denise      2                     35.0
-💼 Why This Matters
-This project shows:
 
-I can clean and analyze real-world data
+💼 Why This Project Matters
+This project demonstrates real data analyst skills, including:
 
-I understand filtering, grouping, and aggregations with Pandas
+🔍 Data cleaning and filtering
 
-I can deliver usable reports for business decision-making
+📊 Grouping and aggregation with Pandas
 
+📁 Exporting analysis results to CSV
+
+🧠 Delivering actionable business insights from raw data
+
+🙌 Author
+Yorman Kennedy Gómez Quintero
+Aspiring Junior Data Analyst | Python & Pandas Enthusiast
+🇺🇸 Based in the U.S. | 🌐 Open to remote opportunities
